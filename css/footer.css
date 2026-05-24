@@ -88,8 +88,7 @@
 /* Modal Footer */
 
 .modal-footer {
-  display: flex;
-  align-items: center;
+  margin-left: auto;
 }
 
 .form-label-footer {
