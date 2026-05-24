@@ -115,6 +115,20 @@
   height: 40px;
 
   background-color: transparent;
+
+  font-weight: 400;
+  font-size: 12px;
+
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input-footer:focus {
+  outline: none;
+  border-color: #31d0aa;
 }
 
 .form-input-footer::placeholder {
@@ -150,6 +164,13 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #31d0aa;
 }
 
 .send-icon {
